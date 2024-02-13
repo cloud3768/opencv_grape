@@ -1,0 +1,6 @@
+.vs/
+OpenCV/x64/
+x64/
+OpenCV/output.jpg
+config_files/yolov5n.onnx
+config_files/yolov5s.onnx
