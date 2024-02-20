@@ -4,3 +4,7 @@ x64/
 OpenCV/output.jpg
 config_files/yolov5n.onnx
 config_files/yolov5s.onnx
+config_files/weights/yolov5s.onnx
+config_files/weights/best_1.onnx
+config_files/weights/yolo.onnx
+config_files/weights/yolov5n.onnx

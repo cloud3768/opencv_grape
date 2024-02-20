@@ -20,10 +20,10 @@ int main()
 	// 总体类别
 	std::vector<std::string> class_list = { "grape","grain" };
 	// 图片路径
-	cv::Mat img = cv::imread("F:/C++/vs/OpenCV/config_files/image/P0279.JPG");
+	cv::Mat img = cv::imread("F:/C++/vs/OpenCV/config_files/image/TEST_2.JPG");
 
 	// 模型路径
-	cv::dnn::Net net = cv::dnn::readNet("F:/C++/vs/OpenCV/config_files/best.onnx");
+	cv::dnn::Net net = cv::dnn::readNet("F:/C++/vs/OpenCV/config_files/weights/best.onnx");
 
 	if (img.empty())
 	{

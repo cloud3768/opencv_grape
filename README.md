@@ -25,7 +25,7 @@ yolov5s的C++推理部署程序
 
 ├─config_files	## 配置文件夹
 
-│  │  best.onnx	 ## 权重 onnx 格式
+│  │  weights	 ## 权重文件夹
 
 │  │  classes.txt	## 分类信息
 
