@@ -1,20 +1,6 @@
 # opencv_grape
 yolov5s的C++推理部署程序
 
-## 工作状态
-
-### 已实现
-
-计数
-
-圆形Hough变换
-
-熟度检测且评级
-
-### 预测目标
-
-优化程序
-
 ## 项目结构
 
 │  OpenCV.sln	  ## VS项目
@@ -23,9 +9,11 @@ yolov5s的C++推理部署程序
 
 ├─config_files	## 配置文件夹
 
-│  │  weights	 ## 权重文件夹
+│  │  weights_pt/_onnx	 ## 权重文件夹
 
 │  │  classes.txt	## 分类信息
+
+│  │  detect_image	## 检测图片输出
 
 │  └─image	## 图片
 
